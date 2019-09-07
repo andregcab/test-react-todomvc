@@ -1,0 +1,21 @@
+#addtodo{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(146, 226, 146);
+  padding: 12px;
+  width: 400px;
+}
+
+#addform{
+  padding: 5px;
+  width: 280px;
+  height: 20px;
+  align-self: center;
+}
+
+#addbutton{
+  width: 100px;
+  align-self: center;
+  padding: 2px;
+  margin: 8px 0 0 3px;;
+}

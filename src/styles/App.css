@@ -1,0 +1,53 @@
+#main-list {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 75vw;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12%;
+}
+
+#title {
+  font-size: 4em;
+  color: rgb(10, 146, 10);
+  border: 2px solid rgb(146, 226, 146);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+#thelist {
+  border: 2px solid rgb(146, 226, 146);
+  width: 385px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+#eachThingContainer {
+  display: flex;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 8px;
+  height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachThing {
+  font-size: 22px;
+  word-break: break-all;
+}
+
+.deleteButton {
+  padding: 2px 6px;
+  background-color: rgb(253, 104, 104);
+  border-radius: 8px;
+}
+
+.completed {
+  font-size: 14px;
+}
